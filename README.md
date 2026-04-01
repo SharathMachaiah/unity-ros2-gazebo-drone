@@ -38,10 +38,11 @@ ROS2 (Jazzy)
 Gazebo (Harmonic)
 Unity (unity6 recommended)
 
-## Build Instructions (Required First Time Only)
-cd ros2_ws
-source /opt/ros/jazzy/setup.bash
-colcon build
+## Build Instructions (Required First Time Only)  
+Before running the project for the first time, you must build the ROS2 workspace.  
+cd ros2_ws  
+source /opt/ros/jazzy/setup.bash  
+colcon build  
 source install/setup.bash
 
 ## Launch Ros bridge and required Gazebo world (during every session)
