@@ -15,17 +15,17 @@ The drone is simulated in Gazebo, controlled from Unity, and data flows through 
 ```text
 drone_project/
 ├── unityGazeboProject/          # Unity project folder
-├── ros2_ws/        # ROS2 workspace
+├── ros2_ws/        # ROS2 workspace in Ubuntu
 │   ├── src/
 │   │   └── height_reader/  # Custom ROS2 node
 │   ├── build/      
 │   ├── install/   
 │   └── log/        
-├── gazebo/         # Gazebo simulation assets
+├── gazebo/         # Gazebo simulation assets in Ubuntu
 │   └── worlds/
 │       └── Quadworld.sdf
 ├── scripts/
-    └── fly.sh      # Script to launch entire system
+    └── fly.sh      # Script to launch entire system in Ubuntu
 
 
 
@@ -33,7 +33,7 @@ Prerequisites
 
 Make sure you have:
 
-Ubuntu (WSL2 recommended)
+Ubuntu (version 24 recommended)
 ROS2 (Jazzy)
 Gazebo (Harmonic)
-Unity (Windows)
+Unity (unity6 recommended)
