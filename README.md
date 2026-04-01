@@ -24,7 +24,7 @@ drone_project/
 ├── gazebo/         # Gazebo simulation assets in Ubuntu
 │   └── worlds/
 │       └── Quadworld.sdf
-├── scripts/
+└── scripts/
     └── fly.sh      # Script to launch entire system in Ubuntu
 
 ```
