@@ -45,5 +45,5 @@ source /opt/ros/jazzy/setup.bash
 colcon build  
 source install/setup.bash
 
-## Launch Ros bridge and required Gazebo world (during every session)
+## Launch ROS bridge and required Gazebo world (during every session)
 ./scripts/fly.sh
