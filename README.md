@@ -47,3 +47,7 @@ source install/setup.bash
 
 ## Launch ROS bridge and required Gazebo world (during every session)
 ./scripts/fly.sh
+
+## Edit IP address in Unity
+Either edit the IP using the ROS manager in Editor (Disable ROS HUD to prevent IP appearing on screen) or  
+Use the settings menu during runtime(will be stored as player prefs for the future sessions).
