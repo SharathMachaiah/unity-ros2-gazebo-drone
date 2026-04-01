@@ -14,7 +14,7 @@ The drone is simulated in Gazebo, controlled from Unity, and data flows through 
 ## Project Structure
 ```text
 drone_project/
-├── unity/          # Unity project (visualization + controls)
+├── unityGazeboProject/          # Unity project folder
 ├── ros2_ws/        # ROS2 workspace
 │   ├── src/
 │   │   └── height_reader/  # Custom ROS2 node
