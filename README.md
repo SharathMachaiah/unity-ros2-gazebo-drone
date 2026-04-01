@@ -27,9 +27,9 @@ drone_project/
 ├── scripts/
     └── fly.sh      # Script to launch entire system in Ubuntu
 
+```
 
-
-Prerequisites
+## Prerequisites
 
 Make sure you have:
 
@@ -37,3 +37,12 @@ Ubuntu (version 24 recommended)
 ROS2 (Jazzy)
 Gazebo (Harmonic)
 Unity (unity6 recommended)
+
+## Build Instructions (Required First Time Only)
+cd ros2_ws
+source /opt/ros/jazzy/setup.bash
+colcon build
+source install/setup.bash
+
+## Launch Ros bridge and required Gazebo world (during every session)
+./scripts/fly.sh
