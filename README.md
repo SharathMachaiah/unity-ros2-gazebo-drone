@@ -33,10 +33,10 @@ drone_project/
 
 Make sure you have:
 
-Ubuntu (version 24 recommended)
-ROS2 (Jazzy)
-Gazebo (Harmonic)
-Unity (unity6 recommended)
+Ubuntu (version 24 recommended)  
+ROS2 (Jazzy)  
+Gazebo (Harmonic)  
+Unity (unity6 recommended)  
 
 ## Build Instructions (Required First Time Only)  
 Before running the project for the first time, you must build the ROS2 workspace.  
