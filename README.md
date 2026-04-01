@@ -35,5 +35,5 @@ Make sure you have:
 
 Ubuntu (WSL2 recommended)
 ROS2 (Jazzy)
-Gazebo
+Gazebo (Harmonic)
 Unity (Windows)
