@@ -11,26 +11,21 @@ Gazebo → physics simulation
 
 The drone is simulated in Gazebo, controlled from Unity, and data flows through ROS2.
 
-Project Structure
+## Project Structure
+```text
 drone_project/
-├── unity/                 # Unity project (visualization + controls)
-│
-├── ros2_ws/               # ROS2 workspace
+├── unity/          # Unity project (visualization + controls)
+├── ros2_ws/        # ROS2 workspace
 │   ├── src/
-│   │   └── height_reader/ # Custom ROS2 node (publishes drone height)
-│   ├── build/             # Ignored
-│   ├── install/           # Ignored
-│   └── log/               # Ignored
-│
-├── gazebo/                # Gazebo simulation assets
-│   ├── models/            # Drone + environment models
+│   │   └── height_reader/  # Custom ROS2 node
+│   ├── build/      
+│   ├── install/   
+│   └── log/        
+├── gazebo/         # Gazebo simulation assets
 │   └── worlds/
-│       └── Quadworld.sdf  # Simulation world file
-│
+│       └── Quadworld.sdf
 ├── scripts/
-│   └── fly.sh             # Script to launch entire system
-│
-└── README.md
+    └── fly.sh      # Script to launch entire system
 
 
 
